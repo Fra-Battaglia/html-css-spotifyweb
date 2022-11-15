@@ -4,27 +4,147 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
+		<title>Spotify Web</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	</head>
 	<body>
 
-		<div class="sidebar"></div>
+		<!-- Wrapper -->
 
 		<div class="wrapper">
 
-			<!-- Header -->
+			<aside>
+				<div class="row">
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								<div class="col logo">
+									<img src="./img/logo-small.svg" alt="logo" class="mobile-logo">
+									<img src="./img/logo.svg" alt="logo" class="desktop-logo">
+								</div>
+								<div class="col aside-nav">
+									<div class="row menu">
+										<div class="col menu-voice home"><a href="#"><img src="./img/home.svg" alt="home"><span class="tablet-only">Home</span></a></div>
+										<div class="col menu-voice search"><a href="#"><img src="./img/search.svg" alt="search"><span class="tablet-only">Search</span></a></div>
+										<div class="col menu-voice libreria"><a href="#"><img src="./img/libreria.svg" alt="libreria"><span class="tablet-only">Libreria</span></a></div>
+									</div>
+								</div>
+								<div class="col playlist">
+									<h2>PLAYLIST</h2>
+									<div class="new-playlist">
+										<div class="add-playlist"><a href="#">Crea Playlist</a></div>
+									</div>
+									<div class="playlist-list">
+										<ul>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+			
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+											<li><a href="#">Nome Playlist</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col aside-footer">
+						<div class="install">
+							<a href="#"><img src="./img/download.svg" alt="download"> <span class="tablet-only">Installa app</span></a>
+						</div>
+						<div class="separator tablet-only"></div>
+						<div class="user">
+							<div class="user-image"><img src="./img/profile.svg" alt="user"></div>
+							<div class="user-info tablet-only"><h2>John Doe</h2></div>
+						</div>
+					</div>
+				</div>
+			</aside>
 	
-			<header></header>
+			<main>
 	
-			<!-- Main -->
+				<!-- Header -->
+		
+				<header></header>
+		
+				<!-- Main -->
+		
+				<main>
+					<div class="main-content">
+						
+					</div>
+				</main>
 	
-			<main></main>
-
+			</main>
+			
 		</div>
+		
+			<!-- Footer -->
+	
+			<footer>
+				<div class="section-left">
+					<div class="currently-playing">
+						<div class="song-info">
+							<div class="currently-image">
+								<img src="./img/sinister.jpeg" alt="sinister" class="playing-image">
+							</div>
+							<div>
+								<h2>Sinister</h2>
+								<p>Brano Nome</p>
+							</div>
+						</div>
+						<div class="icons">
+							<a href="#"><i class="fa-regular fa-heart"></i></a>
+							<a href="#"><i class="fa-regular fa-folder"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="section-center">
+					<div class="player-buttons">
+						<ul>
+							<li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+							<li><a href="#"><i class="fa-solid fa-backward-step"></i></a></li>
+							<li><a href="#"><i class="fa-regular fa-circle-play"></i></a></li>
+							<li><a href="#"><i class="fa-solid fa-forward-step"></i></a></li>
+							<li><a href="#"><i class="fa-solid fa-rotate-right"></i></a></li>
+						</ul>
+					</div>
+					<div class="player-bar">
+						<div class="time-min">0:25</div>
+						<div class="progress-bar">
+							<div class="played-time">
+								<div class="progress-bar-cursor"></div>
+							</div>
+						</div>
+						<div class="time-max">4:35</div>
+					</div>
+				</div>
+				<div class="section-right">
+					<ul>
+						<li><i class="fa-solid fa-list-ul"></i></li>
+						<li><i class="fa-solid fa-desktop"></i></li>
+						<li class="volume">
+							<i class="fa-solid fa-volume-high"></i>
+							<div class="progress-bar">
+								<div class="volume-level">
+									<div class="progress-bar-cursor"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</footer>
+			
 
-		<!-- Footer -->
-
-		<footer></footer>
 	</body>
 </html>
