@@ -15,9 +15,9 @@ body {
 	display: flex;
 }
 
-.row, .col {
+/* .row, .col {
 	border: 1px solid blue;
-}
+} */
 
 .row {
 	width: 100%;
